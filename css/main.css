@@ -1,0 +1,223 @@
+
+
+/* Space out content a bit */
+body {
+  overflow-y:auto;
+  background-size:cover;
+  background-position:center;
+  font-family:'museo', 'Helvetica', 'Arial', sans-serif;
+  font-weight:300;
+  text-align: center;
+}
+
+@media screen 
+and (min-width: 668px) { 
+
+  .my-window span.first-name{
+    font-size:24pt !important;
+  }
+  .position{
+    font-size: 14pt !important;
+  }
+  .social-holder{
+    margin-left:-15px;
+  }
+}
+@media screen 
+and (min-width: 200px) 
+and (max-width: 667px) { 
+
+  .my-window span.first-name{
+    font-size:18pt !important;
+  }
+  .position{
+    font-size: 12pt !important;
+  }
+  .social-holder{
+    margin-left:0;
+  }
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 950px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* Phase 1 Build Website
+Window Build landing page */
+.social.fa{
+  font-size:16pt;
+  color:#ccc;
+  width:20pt;
+  height:20pt;
+  text-align:center;
+  cursor: pointer;
+  transition: all .3s;
+}
+.fa-facebook:hover{
+  color:#3b5998;
+}
+.fa-twitter:hover{
+  color:#00aced;
+}
+.fa-google-plus:hover{
+  color:#dd4b39;
+}
+.fa-dribbble:hover{
+  color:#ea4c89;
+}
+.fa-linkedin:hover{
+  color: #007bb6;
+}
+.fa-github:hover{
+  color:#000;
+}
+.fa-pinterest:hover{
+  color:#cb2027;
+}
+.fa-behance:hover{
+  color:#1769ff;
+}
+.small-super{
+  font-size:10pt;
+}
+.small-super i.fa{
+  font-size:10pt;
+}
+.blog-resume{
+  color: #00aebf !important;
+  transition: all .5s;
+  font-weight:300;
+  font-size:12pt;
+}
+.blog-resume:hover{
+  color: #000 !important;
+  font-weight:300;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration:none;
+}
+div.profile-img-holder{
+  margin-top: 50px;
+}
+.my-window{
+  overflow:hidden;
+  padding:0;
+  background:#fff;
+  color:#000;
+  height:350px;
+  margin-top:20px;
+}
+.my-window > div:nth-child(1){
+  height:100% !important;
+}
+.my-window .social-holder{
+  bottom:30px;
+}
+.social-holder{
+  padding-top:100px;
+  width:100%;
+}
+.my-window span.first-name{
+  font-weight:700 !important;
+  color:#00aebf !important; 
+}
+.position{
+  font-weight: 300;
+}
+.excited-about{
+  line-height:24pt;
+  font-size:12pt;
+  font-weight: 300;
+  color: #00aebf;
+}
+.excited-about a{
+  color: #00aebf;
+}
+.my-window .divider{
+  border-top:1px solid rgba(0,0,0,0.2);
+}
+.social-head{
+  line-height: 30pt;
+  color: rgba(0,0,0,0.5);
+}
+.temp-footer{
+  padding-top: 30px;
+  font-weight:300;
+  font-size:10pt;
+  text-align:center;
+  color: rgba(0,0,0,0.4);
+}
+/* Phase 1 Build Ends */
