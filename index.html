@@ -33,7 +33,9 @@
 		.app-holder{
 			width: 100vw;
 			height: 100vh;
-			background: #e72c30;
+			background: #efefef;
+			display: flex;
+			flex-direction: column;
 		}
 		
 		.top-nav-holder{
@@ -101,7 +103,7 @@
 
 <body>
 	<div class="app-holder">
-		<div class="top-nav-holder">
+		<div class="top-nav-holder" style="flex: none;">
 			
 			<!-- Primary Menu -->
 			<div class="primary-menu">
@@ -119,13 +121,16 @@
 			
 		</div>
 		
-		<div style="width: 100%; height: 100%;">
+		<div style="background: #000; flex: auto; display: flex; flex-direction: row;">
 			<!-- Left Panel -->
-			<div style="width: 400px; height: 100%; background: #fff; float: left;">
+			<div style="width: 400px; background: #fff; flex: none;">
 				
 			</div>
 			
 			<!-- Right Panel to be added -->
+			<div style="flex: auto; background: #efefef;">
+				<iframe width="100%" height="100%" src="https://api.mapbox.com/styles/v1/mapbox/streets-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#12.07/28.58355/77.20319" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+			</div>
 
 		</div>
 		
