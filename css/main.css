@@ -1,0 +1,112 @@
+/* Font Declaration */
+
+@font-face {
+  font-family: "proxima-nova";
+  font-weight: 300;
+  src: url("fonts/proxima-nova.otf");
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  font-weight: 500;
+  src: url("fonts/proxima-nova-semibold.otf");
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  font-weight: 700;
+  src: url("fonts/proxima-nova-bold.otf");
+}
+
+/* Global Styles Declaration */
+
+pad-top-20 {
+  padding-top: 20px;
+}
+
+pad-right-20 {
+  padding-right: 20px;
+}
+
+pad-bottom-20 {
+  padding-bottom: 20px;
+}
+
+pad-left-20 {
+  padding-left: 20px;
+}
+
+pad-all-20 {
+  padding: 20px;
+}
+
+
+/* Basic app styling */
+
+.app-holder {
+  width: 100vw;
+  height: 100vh;
+  background: #efefef;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-nav-holder {
+  height: 100px;
+}
+
+.primary-menu {
+  height: 60px;
+  background: #fff;
+}
+
+.secondary-menu {
+  height: 40px;
+  padding-left: 5px;
+}
+
+.freelancer-fill {
+  background: #27C55E;
+}
+
+.employer-fill {
+  background: #0A66E1;
+}
+
+ul {
+  margin: 0;
+}
+
+ul .employer-menu {
+  height: 100%;
+}
+
+.employer-menu li {
+  height: 100%;
+  text-transform: uppercase;
+  float: left;
+  margin-left: 25px;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.nav-menu-item {
+  font-size: 10pt;
+  line-height: 38px;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 500;
+  opacity: 0.6;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.nav-menu-item:hover {
+  opacity: 0.8;
+}
+
+.nav-item-active {
+  opacity: 1 !important;
+  border-bottom: 2pt solid #fff;
+}
